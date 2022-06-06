@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: rgb(233, 233, 233);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    /* justify-content: center; */
+}
+
+.nav {
+    background-color: rgb(33, 124, 160);
+    color: rgb(34, 34, 34);
+    
+    height: 80px;
+    width: 1300px; /* for styling purposes */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 40px; */
+    cursor: pointer;
+}
+h1{
+    margin-right: 90px;
+    
+}
+
+.inner-container {
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+    padding-top: 20px
+    
+
+}
+
+.top-row {
+    height: 80px;
+    width: 1000px;
+    color: rgb(54, 54, 54);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 5px solid rgb(127, 151, 160);
+    
+}
+h2 {
+    margin-right: 200px;
+    font-size: xx-large;
+}
+
+.line {
+    display: flex;
+    /* padding-right: 30px; */
+    margin-left: 300px;
+    justify-content: flex-end;
+}
+
+#degrees {
+    margin-left: 20px;
+}
+
+.bottom-row {
+    
+    display: flex;
+    /* flex-direction: column;
+   align-items: center;
+    justify-content: center; */
+    padding: 20px;
+    
+}
+
+.first-box, .second-box, .third-box, .fourth-box {
+    width: 200px;
+    height: 300px;
+    background-color: skyblue;
+    margin: 20px;
+   /* flex-direction: column;
+   align-items: center;
+    justify-content: center; */
+    padding-left: 30px;
+    /* padding: 60px; */
+
+}
+
+.temp-header {
+    padding-bottom: 30px;
+    color: blue;
+    /* margin-bottom: 60px; */
+    margin-left: 40px;
+    margin-top: 10px;
+    color: rgb(54, 54, 54);
+
+}
+
+img {
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.some-rain {
+    margin-bottom: 30px;
+    margin-left: 40px;
+    color: rgb(54, 54, 54);
+}
+
+
+.temp {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+
+.contain-cookie {
+    position: fixed;
+    /* padding-left: 80px; */
+    bottom: 10px;
+    color: rgb(54, 54, 54);
+    background-color: rgb(179, 233, 255);
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cookie-policy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cookie {
+    height: 80px;
+
+}
+
+#cookie-title {
+    margin-left: 90px;
+}
+
+#cook-btn {
+    padding: 10px 20px;
+    /* font-size: 1.2rem; */
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    background-color: #3287f5;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Dojo-Weather</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1>DojoWeather</h1>
+            <h3 class="ny" onclick="alertNewYork()">New York</h3>
+            <h3 onclick="alertCali()">California</h3>
+            <h3 onclick="alertVegas()">Las Vegas</h3>
+        </div>
+        <div class="inner-container">
+            <div class="top-row">
+                <h2>Queens </h2>
+                <div class="line">
+                    <p>Show temperature in</p>
+                    <select name="degree" id="degrees">
+                        <option value="celsius">°C</option>
+                        <option value="fahrenheit">°F</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="bottom-row">
+                <div class="first-box">
+                    <h3 class="temp-header">Today</h3>
+                    <img src="assets/some_rain.png" alt="cloud with rain">
+                    <p class="some-rain">some rain</p>
+                    <div class="temp">
+                        <p><span style="color: red;">24°</span></p>
+                        <p><span style="color: blue;">18°</span></p>
+                    </div>
+
+                </div>
+
+                <div class="second-box">
+                    <h3 class="temp-header">Tomorrow</h3>
+                    <img src="./assets/some_sun.png" alt="fun in the sun">
+                    <p class="some-rain">some sun</p>
+                    <div class="temp">
+                        <p><span style="color: red;">27°</span></p>
+                        <p><span style="color: blue;">19°</span></p>
+
+
+                    </div>
+
+                </div>
+
+                <div class="third-box">
+                    <h3 class="temp-header">Today</h3>
+                    <img src="./assets/some_clouds.png" alt="cloudy skys">
+                    <p class="some-rain">some clouds</p>
+                    <div class="temp">
+                        <p><span style="color: red;">21°</span></p>
+                        <p><span style="color: blue;">16°</span></p>
+                    </div>
+
+                </div>
+
+                <div class="fourth-box">
+                    <h3 class="temp-header">Today</h3>
+                    <img src="./assets/some_sun.png" alt="fun in the sun">
+                    <p class="some-rain">some rain</p>
+                    <div class="temp">
+                        <p><span style="color: red;">26°</span></p>
+                        <p><span style="color: blue;"> 21°</span></p>
+
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="contain-cookie">
+        <h4 id="cookie-title">Stop! Cookie Time</h4>
+
+        <div class="cookie-policy">
+
+            <img class="cookie" src="assets/cookie.png" alt="cookie">
+
+            <p id="recipe">
+                2¾ cups all-purpose flour, 1 teaspoon baking soda,<br> 1 teaspoon cream of tartar, ½ teaspoon sea salt,
+                <br> 1 cup butter, softened, ¾ cup powdered sugar,<br> 1 large egg, 1 teaspoon vanilla extract,
+                <br> 1 teaspoon almond extract, 1 tablespoon lemon zest
+            </p>
+            <button id="cook-btn" onclick="hideCookie()">Accept your fate!</button>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
